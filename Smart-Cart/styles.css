@@ -2,6 +2,218 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+:before,
+:after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font: 600 62.5%;
+  font-family: sans-serif;
+  background-color: #ffffff00;
+}
+a {
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 1rem;
+  color: #a1a1af;
+}
+
+a.tag {
+  display: block;/*text block border*/
+  padding: 0.3em 0.85em;
+  margin: 0.5em;
+  text-transform: capitalize;
+  border: 3px solid #ffffff;
+  border-radius: 2em;
+  transition: transform 0.2s;
+  transition-timing-function: cubic-bezier(0.45, -0.85, 0.55, 0.45);
+}
+
+a.tag:hover {
+  transform: scale(1.2);
+  background: linear-gradient(to right, #f08000, #f08000 );
+/*   background-clip: text; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.container {
+  margin: 2em 6em;
+  padding: 3em;
+  padding-left: 1em;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: #a1a1af;
+  
+  border-radius: 0.35em;
+ 
+}
+
+.container .tags {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .tags span {
+  margin-right: 1em;
+  padding: 1em;
+  text-transform: uppercase;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+  border-left: 3px solid #ffffff65;/*border after menu*/
+  background: linear-gradient(to right, #ffffff, #ffffff);
+  -webkit-background-clip: text; /*menu text*/
+  
+  -webkit-text-fill-color: transparent;
+}
+
+.container .tags a:last-child {
+  margin-left: 0.5em;
+}
+.container .tags a:last-child:hover {
+  color: rgb(255, 255, 255);
+}
+.container label {
+  position: relative;
+  white-space: nowrap;
+  display: flex;
+  width: 48px;
+  height: 48px;
+  align-items: center ;
+  justify-content: flex-end;
+  border: 3px solid transparent;
+  border-radius: 2em;
+  background-color: #ffffff00;
+  background-image: radial-gradient(circle at 50%, #65ffe8, #ffffff00);/*outer layer of search*/
+  transition: all 250ms ease-in-out;
+}
+
+.container label::before {
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+  z-index: 0;
+  transform: rotate(-35deg);
+  width: 4px;
+  height: 25px;
+  content: "";
+  border-radius: 2px;
+  background-image: linear-gradient(to top, #ffffff,#65ffe8 );
+  transition: all 250ms ease-in-out;/*search line*/
+}
+
+.container label .tag-search {
+  position: relative;
+  z-index: 1;
+  display: block;
+  padding-left: 1.75em;
+  width: 42px;
+  height: 42px;
+  font-size: 1rem;
+  border: 0;
+  border-radius: inherit;
+  
+  color: rgb(0, 0, 0);
+  transition: width 250ms ease-in-out;
+}
+
+.container label .tag-search:focus {
+  outline: none;
+}
+
+.container label:hover {
+  width: 20%;
+}
+
+.container label:hover:before {
+  height: 30px;
+  transform: rotate(-90deg) translate(28px, 15px);
+}
+
+.container label:hover .tag-search {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+html, body {
+    height: 100%;
+  }
+  
+  .wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    min-width: 20px;
+    min-height: auto;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #4FD1C5;
+  background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgb(255, 255, 255) 100%);/*login button*/
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);/*login outer glow*/
+    transition: 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: left;
+    padding: 10px;
+    }
+  
+  :before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(60px + 12px);
+    min-height: calc(30px + 12px);
+    border: 4px solid #00FFCB;/*Login hover glow*/
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+  
+  .button:hover, .button:focus {
+    color: #5e5e5ea0;
+    transform: translateY(-6px);
+  }
+  
+  button:hover::before, button:focus::before {
+    opacity: 1;
+  }
+  
+  
+  
+  button:hover::after, button:focus::after {
+    animation: none;
+    display: none;
+  }
+  
+
+
+
 body {
     margin: 0;
     background-image: url("bgf.png");
@@ -37,7 +249,7 @@ nav ul li{
 nav a {
     float: left;
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -80,19 +292,6 @@ input ::placeholder{
     border: none;
     cursor: pointer;
 }
-
-.account-options {
-    float: right;
-}
-
-.account-options a {
-    padding: 14px 20px;
-    background-color: #84A59D;
-    margin-right: 10px;
-    border-radius: 30px;
-    font-weight: 500;
-}
-
 .child{
     margin: 0 auto;
     height: 90vh;
@@ -107,83 +306,32 @@ input ::placeholder{
     align-items: center;
     height: calc(100% - 20vh);
 }
-
-#leftportion{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    height: 80%;
+#leftportion figure{
+    width: 420px;
+    height: 420px;
 }
 
-#leftportion button{
-    padding: 20px 30px 20px 30px;
-    border: none;
-    border-radius: 40px;
-    background-color: #F6BD60;
-    font-family: Montserrat;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #F7EDE2;
-    width: 200px;
-    text-align: center;
-    font-size: larger;
-    cursor: pointer;
-}
-
-#title{
-    font-family: "Madimi One", sans-serif;
-    font-size: 64px;
-    font-weight: 800;
-    color: #F28482;
-}
-
-#text{
-    text-transform: uppercase;
-    font-family: "Anton", sans-serif;
-    font-size: 24px;
-    color: #F6BD60;
-}
-
-#choose-card{
-    background-color: #84a59d6b;
-    height: 70px;
-    width: 200px;
-    border-radius: 20px;
-    padding: 20px;
-}
-
-#choose-card span{
-    color: #84A59D;
-    font-weight: 800;
-}
-
-#choose-card div{
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    margin-top: 10px;
-}
-
-#choose-card div svg{
-    padding: 10px;
-    background-color: #84a59d6e;
+#leftportion figure img{
+    width: 100%;
     border-radius: 50%;
 }
 
-#choose-card div span{
-    padding: 10px;
-    background-color: #F7EDE2;
-    border-radius: 30%;
+#middleportion figure{
+    width: 420px;
+    height: 420px;
+}
+
+#middleportion figure img{
+    width: 100%;
+    border-radius: 50%;
 }
 
 #rightportion figure{
     width: 420px;
     height: 420px;
-    object-fit: cover;
 }
 
 #rightportion figure img{
-    height: 100%;
     width: 100%;
     border-radius: 50%;
 }
