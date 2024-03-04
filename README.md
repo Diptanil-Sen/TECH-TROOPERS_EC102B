@@ -1,12 +1,12 @@
 
-# Tech Troopers
+# 🤖 Tech Troopers
 
 
 An enthusiastic team of 1st year students here to create a website for the first time.
 
 
 
-# Project Title
+# 📽️ Project Title
 
 * Stack Basket
 
@@ -14,7 +14,7 @@ The Project is based on an eccomerce website SMARTCART which me and my team have
 
 
 
-## Tech Stack
+## 🧑‍💻 Tech Stack
 
 *HTML
 
@@ -22,19 +22,19 @@ The Project is based on an eccomerce website SMARTCART which me and my team have
 
 
 
-## Git-Hub Repo Link
+## 📁 Git-Hub Repo Link
 
 https://github.com/Diptanil-Sen/TECH-TROOPERS_EC102B
 
 
 
-## View Website
+## 🕸️ View Website
 
 Vercel Link : https://tech-troopers-ec-102-ep5k9rq1f-diptanil-sens-projects.vercel.app
 
 
 
-## Contributions
+## 🎛️ Contributions
 
 - [@Diptanil-Sen](https://github.com/Diptanil-Sen)
 
@@ -73,7 +73,7 @@ Vercel Link : https://tech-troopers-ec-102-ep5k9rq1f-diptanil-sens-projects.verc
 
 
 
-## Lessons Learned
+## 📚 Lessons Learned
 
 While doing this project we learnt a lot about HTML and CSS. We came to know that the trial and error method is a much faster way of learning and understanding rather than watching some videos or taking classes.
 
@@ -81,14 +81,14 @@ We have certain issues while adding some elements since it is our first time doi
 
 
 
-## Logo
+## 🐞 Logo
 
 
 ![logo](https://github.com/C0D3K0NG/TECH-TROOPERS_EC102B/assets/150945082/b78b4872-fe1b-4388-b4cd-fe0733b377e2)
 
 
 
-## Optimizations
+## 💻 Optimizations
 
 * Changed the background of the website
 
@@ -119,14 +119,14 @@ We have certain issues while adding some elements since it is our first time doi
 
 
 
-## Screenshots
+## 🎥 Screenshots
 
 ![First Page](https://github.com/C0D3K0NG/TECH-TROOPERS_EC102B/assets/150945082/acb600b1-2cf2-4315-88b5-aa6c456c3627)
 
 ![Login Page](https://github.com/C0D3K0NG/TECH-TROOPERS_EC102B/assets/150945082/87c3861d-2699-4a8e-9316-d386eeabdf21)
 
 
-## How to setup it on your device ?? 🤔
+## 🤔 How to setup it on your device ?? 
 
 ### 🤞 Step 1
 
@@ -151,5 +151,5 @@ now you are got to go !!
 
 
 
-# MADE WITH LOVE BY TEAM TECH TROOPERS
+# MADE WITH ❤️ BY TEAM TECH TROOPERS
 
