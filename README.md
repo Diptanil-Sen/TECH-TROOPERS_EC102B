@@ -18,6 +18,7 @@ The Project is based on an eccomerce website SMARTCART which me and my team have
 ## Tech Stack
 
 *HTML
+
 *CSS
 
 
@@ -38,28 +39,38 @@ Vercel Link : https://techtroopers-ec102b-gxpip3ywn-diptanil-sens-projects.verce
 
 - [@Diptanil-Sen](https://github.com/Diptanil-Sen)
 
-*Team Leader
-*Github Repo
-*Live Deployment
-*Landing Page
-*Login Page
+* Team Leader
+
+* Github Repo
+
+* Live Deployment
+
+* Landing Page
+
+* Login Page
+
 
 
 - [@WaxFantastic](https://github.com/WaxFantastic)
 
-*Landing Page
-*Login Page
-*Image generation
+* Landing Page
+
+* Login Page
+
+* Image generation
+
 
 
 - [@C0D3K0NG](https://github.com/C0D3K0NG)
 
-*Landing Page
+* Landing Page
+
 
 
 - [@deboshreemajumder](https://github.com/deboshreemajumder)
 
-*Image generaion
+* Image generaion
+
 
 
 
@@ -125,6 +136,8 @@ open terminal on the project and type
   cd SMARTCART
 ```
 now you are got to go !!
+
+
 
 # MADE WITH LOVE BY TEAM TECH TROOPERS
 
