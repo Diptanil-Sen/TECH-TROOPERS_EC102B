@@ -8,7 +8,7 @@ An enthusiastic team of 1st year students here to create a website for the first
 
 # 📽️ Project Title
 
-* Stack Basket
+ ### Stack Basket
 
 The Project is based on an eccomerce website SMARTCART which me and my team have further renamed to Stack_Basket.
 
@@ -16,9 +16,9 @@ The Project is based on an eccomerce website SMARTCART which me and my team have
 
 ## 🧑‍💻 Tech Stack
 
-*HTML
+* HTML
 
-*CSS
+* CSS
 
 
 
