@@ -1,7 +1,6 @@
 
-# Team Name
+# Tech Troopers
 
-* Tech Troopers
 
 An enthusiastic team of 1st year students here to create a website for the first time.
 
