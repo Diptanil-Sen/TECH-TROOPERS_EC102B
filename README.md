@@ -30,7 +30,7 @@ https://github.com/Diptanil-Sen/TECH-TROOPERS_EC102B
 
 ## View Website
 
-Vercel Link : https://techtroopers-ec102b-gxpip3ywn-diptanil-sens-projects.vercel.app
+Vercel Link : https://tech-troopers-ec-102-ep5k9rq1f-diptanil-sens-projects.vercel.app
 
 
 
