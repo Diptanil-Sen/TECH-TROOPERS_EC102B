@@ -90,19 +90,32 @@ We have certain issues while adding some elements since it is our first time doi
 
 ## Optimizations
 
-*Changed the background of the website
-*Changed the logo of the website
-*Added a proper navigation bar on the top
-*Added an animated search bar which expands on hovering
-*Added a hovering login button with underglow
-*Added different sections of respective products on the site
-*Addeda a tagline of the website company at the bottom of the screen
-*Added a completely new responsive login page 
-*Added background to the login page
-*Added responsive sections for user to add their username/email/phone and a password section
-*Added a login button 
-*Added a login with google butoon along with its logo
-*Added a login with facebook button along with its logo
+* Changed the background of the website
+
+* Changed the logo of the website
+
+* Added a proper navigation bar on the top
+
+* Added an animated search bar which expands on hovering
+
+* Added a hovering login button with underglow
+
+* Added different sections of respective products on the site
+
+* Added a tagline of the website company at the bottom of the screen
+
+* Added a completely new responsive login page 
+
+* Added background to the login page
+
+* Added responsive sections for user to add their username/email/phone and a password section
+
+* Added a login button 
+
+* Added a login with google butoon along with its logo
+
+* Added a login with facebook button along with its logo
+
 
 
 
